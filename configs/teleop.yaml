@@ -12,7 +12,7 @@ run_xela:  false
 
 # Visualize 3D and 2D plots
 visualize_xela: false
-visualize_right_2d:  false
+visualize_right_2d: false
 visualize_right_3d: false
 visualize_right_dir: false
 
