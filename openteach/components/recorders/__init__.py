@@ -1,3 +1,8 @@
-from .image import RGBImageRecorder, DepthImageRecorder
+from .image import (
+    DepthImageRecorder,
+    FishEyeImageRecorder,
+    OculusImageRecorder,
+    RGBImageRecorder,
+)
+from .keypoint import KeypointRecorder
 from .robot_state import RobotInformationRecord
-from .sensors import XelaSensorRecorder
