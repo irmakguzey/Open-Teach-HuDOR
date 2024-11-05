@@ -1,0 +1,9 @@
+keypoint_recorder:
+    _target_: openteach.components.recorders.KeypointRecorder
+    host: ${host_address}
+    keypoint_port: ${keypoint_port}
+    data_types:
+      - timestamp
+      - original_keypoints
+      - oculus_camera
+      - keypoint_status

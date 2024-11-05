@@ -1,0 +1,13 @@
+oculus_recorder:
+    _target_: third_person_man.collector.recorders.OculusImageRecorder
+    host: '127.0.0.1'
+    image_stream_port: 
+        - 1234
+        # - 1235
+    SCRCPY_dir: '/home/irmak/scrcpy'
+    FFMPEG_bin: '/home/irmak/miniconda3/envs/openteach/bin/ffmpeg'
+    ADB_bin: '/usr/bin/adb'
+    SCRCPY_ver: '1.25'
+
+oculus_addresses:
+    - '10.19.165.216'
