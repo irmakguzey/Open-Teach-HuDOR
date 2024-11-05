@@ -11,9 +11,8 @@ defaults:
 
 record_realsense: true
 record_fisheye: true # fish eye meaning RGB
-record_spacemouse: false
-storage_path: /data/irmak/third_person_manipulation/plug_insertion
-demo_num: 1
+storage_path: <data-path>
+demo_num: <demo-num>
 
 hydra:
   output_subdir:
